@@ -13,9 +13,8 @@ public class TrafficLightLamp : MonoBehaviour {
 	public enum Colours{ Rood, Oranje, Groen }
 	public Colours nextColour = Colours.Rood;
 	[HideInInspector]
-	private Colours currentColour = Colours.Groen;
+	public Colours currentColour = Colours.Groen;
 	void Start () {
-		//TrafficLightID = gameObject.GetComponent<InMessageBehaviour> ();
 		foreach (Transform child in transform) {
 				if (child.gameObject.name == "Rood") {
 						rood = child.transform.renderer.material;

@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NavController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Stoptrigger.cs">
     <Files>
-      <File FileName="Assets\Scripts\Spawning.cs" Line="15" Column="27" />
-      <File FileName="Assets\Scripts\NavController.cs" Line="29" Column="40" />
+      <File FileName="Assets\Scripts\Stoptrigger.cs" Line="6" Column="8" />
+      <File FileName="..\..\..\NHL School\Software Dev\software_dev-master\Unity-Client\Assets\StopTrigger.cs" Line="33" Column="34" />
+      <File FileName="Assets\Scripts\TrafficLightLamp.cs" Line="52" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
