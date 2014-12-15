@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawning.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NavController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Spawning.cs" Line="31" Column="16" />
+      <File FileName="Assets\Scripts\Spawning.cs" Line="15" Column="27" />
       <File FileName="Assets\Scripts\NavController.cs" Line="29" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
