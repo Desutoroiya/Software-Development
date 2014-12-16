@@ -4,6 +4,7 @@ using System.Collections;
 
 public class NavController : MonoBehaviour {
 	public bool useBreak = true;
+	private float normalSpeed;
 	public float breakSpeed = 0.0f;
 	public Spawning spawner;
 	public NavMeshAgent nav;
@@ -29,14 +30,14 @@ public class NavController : MonoBehaviour {
 				nextWaypoint();
 			}
 		} catch (IndexOutOfRangeException e){
-;
+
 			Destroy(this.gameObject);
 		}
 		if(useBreak)
 		{
 			RaycastHit hitting;
 			if(Physics.Linecast(brakeLineStart.transform.position,
-			                    brakeLineEnd.transform.position))
+			                    brakeLineEnd.transform.position, out hitting))
 			{
 				nav.speed = hitting.distance/2 > breakSpeed ? hitting.distance/2 : breakSpeed;
 				if(hitting.distance < 5)
@@ -44,10 +45,10 @@ public class NavController : MonoBehaviour {
 					nav.speed = breakSpeed;
 				}
 			}
-		}
-		else
-		{
-			nav.speed = normalSpeed;
+			else
+			{
+				nav.speed = normalSpeed;
+			}
 		}
 		//Debug.DrawLine(nav.steeringTarget, this.transform.position);
 	}
