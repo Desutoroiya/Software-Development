@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\OutMessageBehaviour.cs" />
      <Compile Include="Assets\Scripts\Spawning.cs" />
      <Compile Include="Assets\Scripts\Stoptrigger.cs" />
+     <Compile Include="Assets\Scripts\TrafficController.cs" />
+     <Compile Include="Assets\Scripts\TrafficLightController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightLamp.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Ivar/Documents/GitHub/Software-Development/Simulator/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>

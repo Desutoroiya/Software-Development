@@ -11,10 +11,13 @@ public class TrafficLightLamp : MonoBehaviour {
 	//public InMessageBehaviour TrafficLightID;
 	
 	public enum Colours{ Rood, Oranje, Groen }
+	public InMessageBehaviour LightID;
 	public Colours nextColour = Colours.Rood;
-	[HideInInspector]
+
 	public Colours currentColour = Colours.Groen;
+
 	void Start () {
+		LightID = gameObject.GetComponent<InMessageBehaviour>();
 		foreach (Transform child in transform) {
 				if (child.gameObject.name == "Rood") {
 						rood = child.transform.renderer.material;
@@ -31,13 +34,13 @@ public class TrafficLightLamp : MonoBehaviour {
 	public void changeColour (InMessage.Settings colours){
 		switch (colours){
 		case InMessage.Settings.Rood:
-			changeColour(Colours.Rood);
+			nextColour = Colours.Rood;
 			break;
 		case InMessage.Settings.Oranje:
-			changeColour(Colours.Oranje);
+			nextColour = Colours.Oranje;
 			break;
 		case InMessage.Settings.Groen:
-			changeColour(Colours.Groen);
+			nextColour = Colours.Groen;
 			break;
 		}
 	}

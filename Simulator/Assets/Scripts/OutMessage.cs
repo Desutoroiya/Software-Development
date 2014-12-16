@@ -22,17 +22,20 @@ public class OutMessage
 	
 	public string toString ()
 	{
-		return "" + num + ", " +  inbound.ToString () + ", " + outbound.ToString ()+ ", " +  vehicle.ToString ();
+		return "" + num + ", " + inbound.ToString () + ", " + outbound.ToString () + ", " + vehicle.ToString () + ", " + count;;
 		
 	}
 	
 	public string toMessage ()
 	{
-		return "" + num + inbound.ToString () [0] + outbound.ToString () [0] + vehicle.ToString () [0];
+		count = count >= 9 ? 9 : count;
+		count = count <= 0 ? 0 : count;
+		return "" + num + inbound.ToString () [0] + outbound.ToString () [0] + vehicle.ToString () [0] + count + "";
 	}
 	
 	public int num;
 	public Direction inbound;
 	public Direction outbound;
 	public Vehicle vehicle;
+	public int count;
 }

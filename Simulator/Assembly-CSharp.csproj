@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\OutMessageBehaviour.cs" />
      <Compile Include="Assets\Scripts\Spawning.cs" />
      <Compile Include="Assets\Scripts\Stoptrigger.cs" />
+     <Compile Include="Assets\Scripts\TrafficController.cs" />
+     <Compile Include="Assets\Scripts\TrafficLightController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightLamp.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
