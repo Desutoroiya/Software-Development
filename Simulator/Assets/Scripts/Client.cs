@@ -20,11 +20,12 @@ public class Client : MonoBehaviour
 	private float counter = 0.0f;
 	public float readDelay = 1.0f;
 	private bool socketReady = false;
-	public TrafficLightLamp light;
+	public TrafficController lamp;
 
 
 	void Start ()
 	{
+		lamp = new TrafficController();
 		try {
 			clientSocket = new TcpClient (ip, int.Parse (port));
 			Debug.Log ("Connection made.");
@@ -61,7 +62,7 @@ public class Client : MonoBehaviour
 		
 		if (message.Length == 4) {
 			InMessage receivedMessage = MessageHandler.stringToInMessage (message);
-			this.light.changeColour (receivedMessage.setting);
+			this.lamp.setLight(receivedMessage);
 			Debug.Log (MessageHandler.stringToInMessage (message).toString ());
 		} else {
 			Debug.Log ("RECEIVED: " + message);
