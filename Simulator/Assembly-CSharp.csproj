@@ -60,7 +60,8 @@
      <Compile Include="Assets\Scripts\TrafficController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightLamp.cs" />
-     <None Include="Assets\Voorwerpen\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Voorwerpen\Mens\HairShader.shader" />
+     <None Include="Assets\Voorwerpen\Fiets\SoftAlpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
