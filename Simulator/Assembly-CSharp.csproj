@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Client.cs" />
+     <Compile Include="Assets\Scripts\CrossingBoom.cs" />
      <Compile Include="Assets\Scripts\FlyCam.cs" />
      <Compile Include="Assets\Scripts\InMessage.cs" />
      <Compile Include="Assets\Scripts\InMessageBehaviour.cs" />
@@ -56,10 +57,13 @@
      <Compile Include="Assets\Scripts\OutMessage.cs" />
      <Compile Include="Assets\Scripts\OutMessageBehaviour.cs" />
      <Compile Include="Assets\Scripts\Spawning.cs" />
+     <Compile Include="Assets\Scripts\Spoorboom.cs" />
+     <Compile Include="Assets\Scripts\SpoorboomController.cs" />
      <Compile Include="Assets\Scripts\Stoptrigger.cs" />
      <Compile Include="Assets\Scripts\TrafficController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightController.cs" />
      <Compile Include="Assets\Scripts\TrafficLightLamp.cs" />
+     <Compile Include="Assets\Scripts\TrainController.cs" />
      <None Include="Assets\Voorwerpen\Mens\HairShader.shader" />
      <None Include="Assets\Voorwerpen\Fiets\SoftAlpha.shader" />
  <Reference Include="UnityEngine.UI">

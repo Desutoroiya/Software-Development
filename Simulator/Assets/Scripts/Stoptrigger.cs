@@ -6,11 +6,12 @@ public class Stoptrigger : MonoBehaviour {
 	public bool stopping = true;
 	public TrafficLightLamp lamp;
 	public bool usageLamp = true;
+	public bool stopTrain = false;
 
 	void OnTriggerEnter(Collider other)
 	{
 		NavMeshAgent nav = other.gameObject.GetComponent<NavMeshAgent>();
-		if(stopping && nav != null)
+		if((stopping || stopTrain) && nav != null)
 		{
 			nav.Stop();
 		}
@@ -23,7 +24,7 @@ public class Stoptrigger : MonoBehaviour {
 	void OnTriggerStay(Collider other)
 	{
 		NavMeshAgent nav = other.gameObject.GetComponent<NavMeshAgent>();
-		if(stopping && nav != null)
+		if((stopping || stopTrain) && nav != null)
 		{
 			nav.Stop();
 		} 
