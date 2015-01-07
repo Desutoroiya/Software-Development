@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Client.cs" />
      <Compile Include="Assets\Scripts\CrossingBoom.cs" />
      <Compile Include="Assets\Scripts\FlyCam.cs" />
+     <Compile Include="Assets\Scripts\Fun\FrozenStateController.cs" />
      <Compile Include="Assets\Scripts\InMessage.cs" />
      <Compile Include="Assets\Scripts\InMessageBehaviour.cs" />
      <Compile Include="Assets\Scripts\Interface.cs" />

@@ -1,12 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spoorboom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Fun\FrozenStateController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Stoptrigger.cs" Line="2" Column="26" />
-      <File FileName="Assets\Scripts\TrainController.cs" Line="2" Column="26" />
-      <File FileName="Assets\Scripts\Spoorboom.cs" Line="8" Column="40" />
+      <File FileName="Assets\Scripts\Stoptrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TrainController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spoorboom.cs" Line="6" Column="18" />
       <File FileName="Assets\Scripts\Spawning.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TrafficLightLamp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpoorboomController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Fun\FrozenStateController.cs" Line="60" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
